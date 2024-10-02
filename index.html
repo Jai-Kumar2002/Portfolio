@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- NavBar section -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+  <div class="container-lg">
+      <a class="navbar-brand text-capitalize" href="#">jaya <span class="text-warning">kumar</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <i class="bi bi-three-dots-vertical text-white"></i>     
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                  <a class="nav-link" href="#aboutMe"><i class="bi bi-person ic"></i> about me</a>
+              </li>
+              <li class="nav-item me-5">
+                  <a class="nav-link" href="#Education"><i class='fas fa-graduation-cap ic'></i> education</a>
+              </li>
+              <li class="nav-item me-5">
+                  <a class="nav-link" href="#Skills"><i class='fas fa-laptop-code ic'></i> skills</a>
+              </li>
+              <li class="nav-item me-5">
+                  <a class="nav-link" href="#Project"><i class="fas fa-project-diagram ic"></i> projects</a>
+              </li>
+              <li class="nav-item me-5">
+                  <a class="nav-link" href="#contact"><i class="fa-solid fa-phone ic"></i> contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+  <!-- Profile Objective and about me -->
+  <div class="container-md profileAlign" id="aboutMe">
+    <div class="row mt-3 gy-3 m-3 mx-0 ">
+        <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
+            <img src="images/Profile.jpg" class="img-thumbnail custom-img" alt="Profile Image" >
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="profile-info text-center text-md-start">
+                <h1 style="text-transform: uppercase;">Hi, I am Jaya Kumar S</h1>
+                <h3 id="typed" class="text-warning"></h3>
+                <div class="social-media d-flex justify-content-center justify-content-md-start mt-3">
+                    <a href="https://www.linkedin.com/in/s-jaya-kumar-452098288/" target="_blank" class="social-links mx-2"><i class="bi bi-linkedin fs-4 "></i></a>
+                    <a href="https://github.com/Jai-Kumar2002" target="_blank" class="social-links mx-2"><i class="bi bi-github fs-4 "></i></a>
+                    <a href="mailto:jaikumar414446@gmail.com" target="_blank" class="social-links mx-2"><i class="bi bi-envelope fs-4"></i></a>
+                    <a href="http://wa.me/+919092820333" target="_blank" class="social-links mx-2"><i class="bi bi-whatsapp fs-4"></i></a>
+                </div>
+            </div>
+            <section class="mt-4">
+                <p style="text-align: justify;">
+                    A recent graduate in <span class="text-warning">Computer Science and Engineering</span> from <span class="text-warning">Dr. MGR Educational and Research Institute.</span> I am passionate about leveraging technology to solve real-world problems and eager to embark on a journey in the dynamic field of <span class="text-warning">software development.</span>
+                </p>
+                <p style="text-align: justify;">
+                    I am excited about the opportunity to contribute positively to the tech community and make a meaningful impact through my work. I'm looking forward to connecting with like-minded professionals and exploring new opportunities in the field of computer science.
+                </p>  
+            </section>
+            
+            <div class="d-flex justify-content-center mt-3">
+                <a href="doc/JayaKumar.S.pdf" target="_blank" class="btn btn-outline-warning">View Resume</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Education section -->
+ <div class="container-md sptop" id="Education">
+  <h3 class="text-center heading">education</h3>
+  <section class="timeline-section">
+    <div class="timeline-items">
+      <div class="timeline-item">
+        <div class="timeline-date">2024</div>
+        <div class="timeline-content">
+          <div class="timeline-dot"></div>
+          <h3>Dr. M.G.R Educational and Research institute</h3>
+          <p><b>B.Tech Computer Science & Engineering</b></p>
+          <p class="text-warning">CGPA-8.1/10</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2020</div>
+        <div class="timeline-content">
+          <div class="timeline-dot"></div>
+          <h3>L.C.M.M.Hr.Sec.School</h3>
+          <p><b>HSC</b></p>
+          <p class="text-warning">PERCENTAGE: 64.3%</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2018</div>
+        <div class="timeline-content">
+          <div class="timeline-dot"></div>
+          <h3>L.C.M.M.Hr.Sec.School</h3>
+          <p><b>SSLC</b></p>
+          <p class="text-warning">PERCENTAGE: 63.4%</p>
+        </div>
+      </div>
+  </section>  
+  <section class="course">
+    <h3 class="text-center heading">course</h3>
+    <h6 class="text-center">[click for details]</h6>
+    <p>
+      <button class="btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+        JAVA FULLSTACK DEVELOPMENT 
+      </button>
+    </p>
+    <div style="min-height: 120px;">
+      <div class="collapse collapse-horizontal m-auto colltra" id="collapse">
+        <div class="card card-body m-auto" style="width: 390px;">
+          <p><b class="text-warning"><i>GLOBAL QUEST TECHNOLOGIES</i></b></p>
+          <p><i>apr-2024 to sept-2024</i></p>
+          <p>During my Training program, I have acquired a comprehensive set of skills in both frontend and backend development.</p>
+          <p>Gained knowledge with hands on experienced in Core Java, Java
+            Programming, JDBC, Servlet, Hibernate, Spring boot, SQL, MongoDB.</p>
+      </div>
+    </div>
+  </section>
+ </div>
+
+<!-- Skills -->
+<div class="container-md sptop2" id="Skills">
+    <section>
+        <h3 class="text-center heading">skills</h3>
+        <div class="accordion accordion-flush" id="accordionFlush">
+          <div class="row mt-3 gy-3 m-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mx-0">
+            <div class="col">
+              <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  FRONT-END TECHNOLOGIES
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                <div class="accordion-body"> 
+                  <h6>HTML</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95</div>
+                  </div><br>
+                  <h6>CSS</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85</div>
+                  </div><br>
+                  <h6>JAVASCRIPT</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70</div>
+                  </div><br>
+                  <h6>REACT JS</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">25</div>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+            <div class="col">
+              <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  BACK-END TECHNOLOGIES
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                  <h6>JAVA</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85</div>
+                  </div><br>
+                  <h6>JSP</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60</div>
+                  </div><br>
+                  <h6>SERVLET</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55</div>
+                  </div><br>
+                  <h6>JDBC</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75</div>
+                  </div><br>
+                  <h6>SQL</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65</div>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+            <div class="col">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    TOOLS & TECHNOLOGIES
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                  <div class="accordion-body">
+                    <div class="TOOLS">
+                    <h6>GIT</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55</div>
+                  </div><br>
+                  <h6>MONGODB</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45</div>
+                  </div><br>
+                  <h6>BOOTSTRAP</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65</div>
+                  </div><br>
+                  <h6>HIBERNATE</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50</div>
+                  </div><br>
+                  <h6>SPRING BOOT</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45</div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+ </div>
+ 
+<!-- Project -->
+<div class="container-md sptop" id="Project">
+<section>
+  <h3 class="text-center heading">projects</h3>
+  <div class="row mt-3 gy-3 m-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mx-0">
+    <div class="col mb-3 d-flex justify-content-center">
+      <div class="card" style="width: 19rem;">
+        <img src="images/institute.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-warning">TRAINING INSTITUTION WEBSITE</h5>
+          <p class="card-text">This website is to help students or trainees find the right institution, understand the programs offered, and apply online. It can also serve as a portal for announcements, resources, and contact details for the institution.</p>
+          <p><b class="text-warning">Tech Stack:</b> HTML | CSS | BOOTSTRAP</p>
+          <a href="https://github.com/Jai-Kumar2002/Software_Training_Institute" target="_blank" class="card-link btn btn-outline-light btn-sm mb-2">GITHUB LINK</a>
+          <a href="https://jai-kumar2002.github.io/Software_Training_Institute/" target="_blank" class="card-link btn btn-outline-warning btn-sm mb-2">VIEW WEBSITE</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-3 d-flex justify-content-center">
+      <div class="card" style="width: 19rem;">
+        <img src="images/airlines.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-warning">AIR LINE WEBSITE</h5>
+          <p class="card-text">This web application is to simulate an online airline booking platform. It allows users to search for available flights, view schedules, and book their tickets. The site can also provide information about the airline’s services, destinations, and customer support.</p>
+          <p><b class="text-warning">Tech Stack:</b> HTML | CSS | BOOTSTRAP | JAVASCRIPT</p>
+          <a href="https://github.com/Jai-Kumar2002/Air_Lines_Booking_System" target="_blank" class="card-link btn btn-outline-light btn-sm mb-2">GITHUB LINK</a>
+          <a href="https://jai-kumar2002.github.io/Air_Lines_Booking_System/" target="_blank" class="card-link btn btn-outline-warning btn-sm mb-2">VIEW WEBSITE</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-3 d-flex justify-content-center">
+      <div class="card" style="width: 19rem;">
+        <img src="images/bloodbank.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-warning">BLOOD BANK MANAGEMENT</h5>
+          <p class="card-text">The main goal of the Blood Bank Management System is to facilitate the efficient and organized management of blood donations and transfusions.</p>
+          <p><b class="text-warning">Tech Stack:</b> HTML | CSS | BOOTSTRAP | PHP | SQL</p>
+          <a href="https://github.com/Jai-Kumar2002/Blood_Bank_Management" target="_blank" class="card-link btn btn-outline-light btn-sm mb-2">GITHUB LINK</a>
+          <!-- <a href="#" class="card-link btn btn-outline-warning btn-sm mb-2">VIEW WEBSITE</a> -->
+        </div>
+      </div>
+    </div>
+      <div class="col mb-3 d-flex justify-content-center">
+        <div class="card" style="width: 19rem;">
+          <img src="images/portfolio.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-warning">PORTFOLIO</h5>
+            <p class="card-text">This project showcases a dynamic and interactive personal portfolio built using HTML, CSS, and JavaScript. The website features a sleek and classic design, highlighting various sections.</p>
+            <p><b class="text-warning">Tech Stack:</b> HTML | CSS | BOOTSTRAP | JAVASCRIPT</p>
+            <a href="#" class="card-link btn btn-outline-light btn-sm mb-2">GITHUB LINK</a>
+            <a href="#" class="card-link btn btn-outline-warning btn-sm mb-2">VIEW WEBSITE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  
+<!-- Contact -->
+<div class="container-md sptop" id="contact">
+  <div class=" col-md-10 col-lg-6 m-auto">
+      <h3 class="text-center heading">contact me</h3>
+      <form action="https://api.web3forms.com/submit" method="POST" class="formstyle">
+        <input type="hidden" name="access_key" value="9bab4b1a-b712-4fc7-9640-022988871335">
+    
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingName" placeholder="" name="name" required>
+          <label for="floatingName" style="color: #ff004f;">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="" name="email" required>
+          <label for="floatingInput" style="color: #ff004f;">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="" id="floatingTextarea" style="height: 200px;" name="message" required></textarea>
+          <label for="floatingTextarea "style="color: #ff004f;">Message</label>
+        </div>
+        <div class="text-center">
+        <button type="submit" class="btn subbtn">Submit <i class="fa fa-paper-plane"></i></button></div>
+    </form>
+    
+    </div>
+ </div>
+ <footer>
+  <div class="social-media2 d-flex justify-content-center justify-content-md-start mt-3">
+    <a href="https://www.linkedin.com/in/s-jaya-kumar-452098288/" target="_blank" class="social-links mx-2"><i class="bi bi-linkedin fs-4 "></i></a>
+    <a href="https://github.com/Jai-Kumar2002" target="_blank" class="social-links mx-2"><i class="bi bi-github fs-4 "></i></a>
+    <a href="mailto:jaikumar414446@gmail.com" target="_blank" class="social-links mx-2"><i class="bi bi-envelope fs-4"></i></a>
+    <a href="http://wa.me/+919092820333" target="_blank" class="social-links mx-2"><i class="bi bi-whatsapp fs-4"></i></a>
+</div>
+ </footer>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javaSript/javaScript.js"></script>
+
+</body>
+</html>
